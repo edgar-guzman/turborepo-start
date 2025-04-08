@@ -1,0 +1,21 @@
+{
+    "name": "@edgarguzman/tailwind",
+    "version": "0.0.0",
+    "private": true,
+    "exports": {
+        ".": "./tailwind.config.ts"
+    },
+    "files": [
+        "."
+    ],
+    "dependencies": {
+        "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+        "@edgarguzman/typescript": "workspace:*",
+        "tailwindcss": "^3.4.17"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

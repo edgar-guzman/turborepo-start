@@ -1,0 +1,24 @@
+{
+  "name": "@edgarguzman/auth",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/root.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.8.0",
+    "react": "^18.2.0",
+    "next-auth": "^5.0.0-beta.25"
+  },
+  "devDependencies": {
+    "@edgarguzman/eslint": "workspace:*",
+    "@edgarguzman/prisma": "workspace:*",
+    "@edgarguzman/typescript": "workspace:*",
+    "@types/react": "^18.2.0",
+    "eslint": "^8.57.0",
+    "typescript": "5.7.2"
+  }
+}

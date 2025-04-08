@@ -1,0 +1,9 @@
+enum Role {
+    User
+    Admin
+}
+
+enum UserPublicationType {
+    Public
+    Private
+}

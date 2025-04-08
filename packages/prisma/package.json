@@ -1,0 +1,28 @@
+{
+  "name": "@edgarguzman/prisma",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/client.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "db:generate": "prisma generate --schema=./src/schema",
+    "db:migrate:dev": "prisma migrate dev --schema=./src/schema --skip-generate",
+    "db:reset": "prisma migrate reset --schema=./src/schema",
+    "db:studio": "prisma studio --schema=./src/schema --browser none"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0"
+  },
+  "devDependencies": {
+    "@edgarguzman/eslint": "workspace:*",
+    "@edgarguzman/typescript": "workspace:*",
+    "@types/node": "^20",
+    "eslint": "^8.57.0",
+    "prisma": "^6.5.0",
+    "typescript": "^5.7.2"
+  }
+}
